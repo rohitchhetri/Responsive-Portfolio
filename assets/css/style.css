@@ -136,6 +136,25 @@ h3, h2 {
 
 /* portfolio page */
 
+.main-section-portfolio {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
+
+.main-section-contact {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 30px;
+  margin: 0 0 40px;
+  background: #ffffff;
+  border: 1px solid #dddddd;
+}
 .work {
   position: relative;
   float: left;
@@ -222,6 +241,10 @@ input[type=submit] {
     margin-left:39px;
 }
 
+#masthead{
+  margin:-8px 0 30px;
+}
+
 #main-container{
   max-width:609px;
   margin: 3px 45px 47px 45px;
@@ -229,8 +252,38 @@ input[type=submit] {
   min-height: 10px;
 }
 
+.main-section-portfolio{
+
+  width: 107%;
+
+}
+
 nav{
   margin-right: 40px;
+}
+
+#contact-form ul
+{
+  list-style: none;
+}
+
+.main-section-contact{
+
+  margin-bottom: 222px;
+  padding-left: 0px;
+}
+input[type=submit] {
+  padding: 10px 30px;
+  font-size: 18px;
+  color: #ffffff;
+  cursor: pointer;
+  background: #4aaaa5;
+  border: 0 none;
+  margin-left:40px;
+}
+
+h1{
+  margin-left:40px;
 }
 }
 
@@ -250,6 +303,23 @@ nav{
   margin-left:16px;
 }
 
+.main-section-portfolio{
+  width: 118%;
+  margin-left:-32px; 
+}
+
+.work{
+  width:306px;
+}
+
+.masthead{
+  margin: -8px 0 30px -52px;
+}
+
+.main-section-contact{
+  width: 116%;
+  margin: 0 0 353px -23px;
+}
 }
 
 @media screen and (max-width:640px)
@@ -270,6 +340,20 @@ nav{
     margin-top:43px;
   }
 
+  .main-section-portfolio{
+    width: 97%;
+    margin-top:46px; 
+  }
+
+  .main-section-contact{
+    width: 99%;
+    margin:33px 0 353px -34px;
+  }
+
+  #masthead{
+    width:107%;
+    margin: -8px 0 30px -52px;
+  }
   .auth-image
   {
     width: 546px;
