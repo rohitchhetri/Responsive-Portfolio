@@ -241,6 +241,14 @@ input[type=submit] {
     margin-left:39px;
 }
 
+.main-section{
+  margin-bottom:300px;
+}
+
+.h1-class{
+  margin-left:0px;
+}
+
 #masthead{
   margin:-8px 0 30px;
 }
