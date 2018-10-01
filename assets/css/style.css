@@ -215,3 +215,63 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px)
+{
+  #logo{
+    margin-left:39px;
+}
+
+#main-container{
+  max-width:609px;
+  margin: 3px 45px 47px 45px;
+
+  min-height: 10px;
+}
+
+nav{
+  margin-right: 40px;
+}
+}
+
+@media  screen and (max-width:768px)
+{
+.main-section {
+    float: left;
+    width: 734px;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 500px -37px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+}
+
+#logo{
+  margin-left:16px;
+}
+
+}
+
+@media screen and (max-width:640px)
+{
+
+  #logo
+  {
+    width: 100% ;
+  }
+
+  nav
+  {
+    margin-right: 176px;
+  }
+  .main-section{
+
+    width: 609px;
+    margin-top:43px;
+  }
+
+  .auth-image
+  {
+    width: 546px;
+  }
+}
